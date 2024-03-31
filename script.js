@@ -37,11 +37,16 @@ async function tryParseJson(url) {
   }
 }
 
+function onChange(checkedValues) {
+  console.log(checkedValues);
+}
+
 (function ($) {
-  let CheckboxDropdown = function (element) {
+  let CheckboxDropdown = function (element, onChange) {
     let _this = this;
     this.isOpen = false;
     this.areAllChecked = false;
+    this.onChange = onChange || function () {};
     this.$dropdownElement = $(element);
     this.$label = this.$dropdownElement.find('.dropdown-label');
     this.$checkAll = this.$dropdownElement.find('[data-toggle="check-all"]').first();
@@ -83,6 +88,13 @@ async function tryParseJson(url) {
     } else {
       this.$label.html(checked.length + ' Selected');
     }
+    
+    // get all elements that are checked
+    let checkedValues = [];
+    checked.each(function () {
+      checkedValues.push($(this).val());
+    });
+    this.onChange(checkedValues);
   };
   
   CheckboxDropdown.prototype.onCheckBox = function () {
@@ -123,10 +135,9 @@ async function tryParseJson(url) {
   };
   
   // Initialize checkbox dropdowns
-  let checkboxesDropdowns = document.querySelectorAll('[data-control="checkbox-dropdown"]');
-  for (let i = 0, length = checkboxesDropdowns.length; i < length; i++) {
-    new CheckboxDropdown(checkboxesDropdowns[i]);
-  }
+  $('[data-control="checkbox-dropdown"]').each(function() {
+    new CheckboxDropdown($(this), onChange);
+  });
 })(jQuery);
 
 async function initData() {
