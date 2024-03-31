@@ -1,0 +1,426 @@
+[
+  [
+    "Course",
+    "Class",
+    "Section",
+    "Days & Times",
+    "Room",
+    "Instructor"
+  ],
+  [
+    "CS 135 - Computer Science I",
+    "24254",
+    "1001-LEC",
+    "TuTh 12:00PM - 1:15PM",
+    "SEM 101",
+    "Erin Keith"
+  ],
+  [
+    "CS 135 - Computer Science I",
+    "24255",
+    "1101-LAB",
+    "Mo 8:00AM - 8:50AM",
+    "WPEB 100",
+    "Erin Keith"
+  ],
+  [
+    "CS 135 - Computer Science I",
+    "24256",
+    "1102-LAB",
+    "Mo 9:00AM - 9:50AM",
+    "WPEB 100",
+    "Erin Keith"
+  ],
+  [
+    "CS 135 - Computer Science I",
+    "24262",
+    "1103-LAB",
+    "Mo 10:00AM - 10:50AM",
+    "WPEB 100",
+    "Erin Keith"
+  ],
+  [
+    "CS 135 - Computer Science I",
+    "24270",
+    "1104-LAB",
+    "Mo 11:00AM - 11:50AM",
+    "WPEB 100",
+    "Erin Keith"
+  ],
+  [
+    "CS 135 - Computer Science I",
+    "24369",
+    "1105-LAB",
+    "Mo 12:00PM - 12:50PM",
+    "WPEB 100",
+    "Erin Keith"
+  ],
+  [
+    "CS 135 - Computer Science I",
+    "24370",
+    "1106-LAB",
+    "Mo 1:00PM - 1:50PM",
+    "WPEB 100",
+    "Erin Keith"
+  ],
+  [
+    "CS 202 - Computer Science II",
+    "24257",
+    "1001-LEC",
+    "TuTh 12:00PM - 1:15PM",
+    "DMSC 110",
+    "Bashira Akter Anima"
+  ],
+  [
+    "CS 202 - Computer Science II",
+    "24259",
+    "1102-LAB",
+    "We 9:00AM - 9:50AM",
+    "WPEB 100",
+    "Bashira Akter Anima"
+  ],
+  [
+    "CS 202 - Computer Science II",
+    "24260",
+    "1103-LAB",
+    "We 10:00AM - 10:50AM",
+    "WPEB 100",
+    "Bashira Akter Anima"
+  ],
+  [
+    "CS 202 - Computer Science II",
+    "24261",
+    "1104-LAB",
+    "We 11:00AM - 11:50AM",
+    "WPEB 100",
+    "Bashira Akter Anima"
+  ],
+  [
+    "CS 202 - Computer Science II",
+    "24331",
+    "1105-LAB",
+    "We 12:00PM - 12:50PM",
+    "WPEB 100",
+    "Bashira Akter Anima"
+  ],
+  [
+    "CS 219 - Computer Organization",
+    "24299",
+    "1001-LEC",
+    "MoWe 4:00PM - 5:15PM",
+    "SLH 2",
+    "Bashira Akter Anima"
+  ],
+  [
+    "CS 252 - Digital Forensics Fundamentals",
+    "24296",
+    "1001-LEC",
+    "TuTh 10:30AM - 11:45AM",
+    "LME 321",
+    "Nancy Latourrette"
+  ],
+  [
+    "CS 302 - Data Structures",
+    "24251",
+    "1001-LEC",
+    "MoWe 1:00PM - 2:15PM",
+    "MS 215",
+    "Erin Keith"
+  ],
+  [
+    "CS 326 - Programming Languages, Concepts and Implementation",
+    "24288",
+    "1001-LEC",
+    "TuTh 9:00AM - 10:15AM",
+    "DMSC 105",
+    "Mircea Nicolescu"
+  ],
+  [
+    "CS 333 - Testing and DevOps",
+    "24414",
+    "1001-LEC",
+    "Tu 4:30PM - 7:15PM",
+    "WPEB 100",
+    "Erin Keith"
+  ],
+  [
+    "CS 365 - Mathematics of Computer Science",
+    "24252",
+    "1001-LEC",
+    "Fr 1:00PM - 3:45PM",
+    "DMSC 105",
+    "Diana Moss"
+  ],
+  [
+    "CS 381 - Game Engine Architecture",
+    "24312",
+    "1001-LEC",
+    "MoWe 2:30PM - 3:45PM",
+    "WPEB 100",
+    "Joshua Dahl"
+  ],
+  [
+    "CS 426 - Senior Projects in Computer Science",
+    "24264",
+    "1001-LEC",
+    "TuTh 10:30AM - 11:45AM",
+    "SEM 101",
+    "Dave Feil-Seifer,"
+  ],
+  [
+    "CS 426 - Senior Projects in Computer Science",
+    "32609",
+    "1002-LEC",
+    "TuTh 10:30AM - 11:45AM",
+    "SEM 101",
+    "Dave Feil-Seifer,"
+  ],
+  [
+    "CS 431 - Introduction to Big Data",
+    "24410",
+    "1001-LEC",
+    "TuTh 4:30PM - 5:45PM",
+    "DMSC 102",
+    "Lei Yang"
+  ],
+  [
+    "CS 445 - Internet Security",
+    "24297",
+    "1001-LEC",
+    "MoWe 1:00PM - 2:15PM",
+    "SLH 3",
+    "Shamik Sengupta"
+  ],
+  [
+    "CS 446 - Principles of Operating Systems",
+    "24253",
+    "1001-LEC",
+    "TuTh 3:00PM - 4:15PM",
+    "JTB 100",
+    "Sara Davis"
+  ],
+  [
+    "CS 453 - Mobile Computing Security and Privacy",
+    "24335",
+    "1001-LEC",
+    "TuTh 3:00PM - 4:15PM",
+    "WPEB 100",
+    "William Doherty"
+  ],
+  [
+    "CS 455 - Mobile Sensor Networks",
+    "24408",
+    "1001-LEC",
+    "TuTh 9:00AM - 10:15AM",
+    "WRB 2023",
+    "Hung La"
+  ],
+  [
+    "CS 456 - Automata and Formal Languages",
+    "24265",
+    "1001-LEC",
+    "TuTh 12:00PM - 1:15PM",
+    "SLH 2",
+    "Nancy Latourrette"
+  ],
+  [
+    "CS 457 - Database Management Systems",
+    "24337",
+    "1001-LEC",
+    "MoWe 2:30PM - 3:45PM",
+    "DMSC 104",
+    "Erin Keith"
+  ],
+  [
+    "CS 477 - Analysis of Algorithms",
+    "24267",
+    "1001-LEC",
+    "TuTh 1:30PM - 2:45PM",
+    "DMSC 110",
+    "Monica Nicolescu"
+  ],
+  [
+    "CS 479 - Pattern Recognition",
+    "24404",
+    "1001-LEC",
+    "MoWe 1:00PM - 2:15PM",
+    "WPEB 200",
+    "George Bebis"
+  ],
+  [
+    "CS 484 - Virtual Reality",
+    "24347",
+    "1001-LEC",
+    "TuTh 1:30PM - 2:45PM",
+    "AB 101",
+    "Eelke Folmer"
+  ],
+  [
+    "CS 485 - Computer Vision",
+    "24266",
+    "1001-LEC",
+    "TuTh 9:00AM - 10:15AM",
+    "WPEB 200",
+    "Emily Hand"
+  ],
+  [
+    "CS 487 - Fundamentals of Deep Learning",
+    "24385",
+    "1001-LEC",
+    "MoWe 4:00PM - 5:15PM",
+    "DMSC 102",
+    "Alireza Tavakkoli"
+  ],
+  [
+    "CS 491 - Topics",
+    "24382",
+    "1003-LEC",
+    "Fr 1:00PM - 3:45PM",
+    "PSAC 114",
+    "Jordan Hastings"
+  ],
+  [
+    "CS 491 - Topics",
+    "24389",
+    "1006-LEC",
+    "TuTh 4:30PM - 5:45PM",
+    "PSAC 114",
+    "Christos Papachristos"
+  ],
+  [
+    "CS 493 - Directed Study in Computer Science",
+    "24395",
+    "1001-LEC",
+    "TBA",
+    "TBA",
+    "Monica Nicolescu"
+  ],
+  [
+    "CS 493 - Directed Study in Computer Science",
+    "24417",
+    "1002-LEC",
+    "TBA",
+    "TBA",
+    "Frederick Harris"
+  ],
+  [
+    "CS 493 - Directed Study in Computer Science",
+    "31835",
+    "1004-LEC",
+    "TBA",
+    "TBA",
+    "Nancy Latourrette"
+  ],
+  [
+    "CS 493 - Directed Study in Computer Science",
+    "32297",
+    "1005-LEC",
+    "TBA",
+    "TBA",
+    "Rui Hu"
+  ],
+  [
+    "CS 493 - Directed Study in Computer Science",
+    "32719",
+    "1006-LEC",
+    "TBA",
+    "TBA",
+    "Dave Feil-Seifer"
+  ],
+  [
+    "CS 494 - Internship in Computer Science",
+    "24250",
+    "1001-INT",
+    "TBA",
+    "TBA",
+    "Emily Hand"
+  ],
+  [
+    "CS 494 - Internship in Computer Science",
+    "24268",
+    "1002-INT",
+    "TBA",
+    "TBA",
+    "Nancy Latourrette"
+  ],
+  [
+    "CS 494 - Internship in Computer Science",
+    "24269",
+    "1003-INT",
+    "TBA",
+    "TBA",
+    "Shamik Sengupta"
+  ],
+  [
+    "CS 494 - Internship in Computer Science",
+    "24274",
+    "1004-INT",
+    "TBA",
+    "TBA",
+    "Monica Nicolescu"
+  ],
+  [
+    "CS 494 - Internship in Computer Science",
+    "24305",
+    "1005-INT",
+    "TBA",
+    "TBA",
+    "Frederick Harris"
+  ],
+  [
+    "CS 494 - Internship in Computer Science",
+    "24308",
+    "1006-INT",
+    "TBA",
+    "TBA",
+    "Sushil Louis"
+  ],
+  [
+    "CS 494 - Internship in Computer Science",
+    "24310",
+    "1007-INT",
+    "TBA",
+    "TBA",
+    "Dave Feil-Seifer"
+  ],
+  [
+    "CS 494 - Internship in Computer Science",
+    "24329",
+    "1010-INT",
+    "TBA",
+    "TBA",
+    "Mircea Nicolescu"
+  ],
+  [
+    "CS 494 - Internship in Computer Science",
+    "24420",
+    "1012-INT",
+    "TBA",
+    "TBA",
+    "Erin Keith"
+  ],
+  [
+    "CS 494 - Internship in Computer Science",
+    "24421",
+    "1013-INT",
+    "TBA",
+    "TBA",
+    "Sara Davis"
+  ],
+  [
+    "CS 494 - Internship in Computer Science",
+    "32317",
+    "1015-INT",
+    "TBA",
+    "TBA",
+    "Batyr Charyyev"
+  ],
+  [
+    "CS 494 - Internship in Computer Science",
+    "32841",
+    "1016-INT",
+    "TBA",
+    "TBA",
+    "Eelke Folmer"
+  ]
+]
