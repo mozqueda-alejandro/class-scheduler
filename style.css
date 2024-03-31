@@ -1,0 +1,157 @@
+html {
+    font-family: Manrope, sans-serif;
+    font-weight: 500;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.calendar {
+    margin-bottom: 50px;
+}
+
+#graph-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    width: 800px;
+    height: 700px;
+    border: 0.5px solid #BBBBBB;
+    overflow-y: auto;
+    max-height: 1000px;
+}
+
+.box {
+    border: 0.5px solid #BBBBBB;
+    display: flex;
+}
+
+.event {
+    position: absolute;
+    border-radius: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.timeandgraph {
+    display: flex;
+}
+
+.times {
+    display: grid;
+    grid-gap: 38px;
+    margin-right: 10px;
+}
+
+.days {
+    display: flex;
+    margin-left: 90px;
+    padding-bottom: 5px;
+    grid-gap: 85px;
+}
+
+.info {
+    word-wrap: break-word;
+    font-size: 10px;
+    padding: 2px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fb6259;
+}
+
+body {
+    margin: 40px;
+}
+
+.dropdown {
+    position: relative;
+    font-size: 14px;
+    color: #333;
+    z-index: 1;
+    width: 160px;
+    justify-content: flex-end;
+
+    .dropdown-list {
+        padding: 12px;
+        background: #fff;
+        position: absolute;
+        top: 30px;
+        left: 2px;
+        right: 2px;
+        box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .15);
+        transform-origin: 50% 0;
+        transform: scale(1, 0);
+        transition: transform .15s ease-in-out .15s;
+        max-height: 66vh;
+        overflow-y: hidden;
+    }
+
+    .dropdown-option {
+        display: block;
+        padding: 8px 12px;
+        opacity: 0;
+        transition: opacity .15s ease-in-out;
+    }
+
+    .dropdown-label {
+        display: block;
+        height: 30px;
+        background: #f4f4f4;
+        padding: 6px 12px;
+        line-height: 1;
+        cursor: pointer;
+        border-radius: 8px;
+
+        &:before {
+            content: '▼';
+            float: right;
+        }
+    }
+
+    &.on {
+        .dropdown-list {
+            transform: scale(1, 1);
+            transition-delay: 0s;
+
+            .dropdown-option {
+                opacity: 1;
+                transition-delay: .2s;
+            }
+        }
+
+        .dropdown-label:before {
+            content: '▲';
+        }
+    }
+
+    [type="checkbox"] {
+        position: relative;
+        top: 2px;
+        margin-right: 4px;
+        accent-color: #0070f0;
+    }
+}

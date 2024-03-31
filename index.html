@@ -1,93 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Undergrad Class Schedule</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-      }
-      .container {
-        margin-top: 150px;
-        margin-bottom: 50px;
-      }
-      #graph-container {
-        position: relative;
-        display: grid;
-        grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: repeat(12, 1fr);
-        width: 800px;
-        height: 700px;
-        border: 0.5px solid #999;
-        overflow-y: auto;
-        max-height: 1000px;
-      }
-      .box {
-        border: 0.5px solid #999;
-        display: flex;
-      }
-      .event {
-        position: absolute;
-        border-radius: 5%;
-        transform: translate(-50%, -50%);
-      }
-      .timeandgraph {
-        display: flex;
-      }
-      .times {
-        display: grid;
-        grid-gap: 38px;
-        margin-right: 10px;
-      }
-      .days {
-        display: flex;
-        margin-left: 90px;
-        padding-bottom: 5px;
-        grid-gap: 85px;
-      }
-      .info {
-        word-wrap: break-word;
-        font-size: 10px;
-        padding: 2px;
-      }
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Undergrad Class Schedule</title>
 
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="days">
-        <div>Sun</div>
-        <div>Mon</div>
-        <div>Tue</div>
-        <div>Wed</div>
-        <div>Thur</div>
-        <div>Fri</div>
-        <div>Sat</div>
-      </div>
-      <div class="timeandgraph">
-        <div class="times">
-          <div>8 AM</div>
-          <div>9 AM</div>
-          <div>10 AM</div>
-          <div>11 AM</div>
-          <div>12 PM</div>
-          <div>1 PM</div>
-          <div>2 PM</div>
-          <div>3 PM</div>
-          <div>4 PM</div>
-          <div>5 PM</div>
-          <div>6 PM</div>
-          <div>7 PM</div>
-          <div>8 PM</div>
-        </div>
-        <div id="graph-container"></div>
-      </div>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>Undergrad Class Schedule</h1>
+  </div>
+
+  <div class="dropdown" data-control="checkbox-dropdown" id="frequency">
+    <label class="dropdown-label">Select</label>
+
+    <div class="dropdown-list">
+      <a href="#" data-toggle="check-all" class="dropdown-option">
+        Check All
+      </a>
+
+      <label class="dropdown-option">
+        <input type="checkbox" name="dropdown-group" value="Selection 1"/>
+        Monday
+      </label>
+      <label class="dropdown-option">
+        <input type="checkbox" name="dropdown-group" value="Selection 2"/>
+        Tuesday
+      </label>
+      <label class="dropdown-option">
+        <input type="checkbox" name="dropdown-group" value="Selection 3"/>
+        Wednesday
+      </label>
+      <label class="dropdown-option">
+        <input type="checkbox" name="dropdown-group" value="Selection 4"/>
+        Thursday
+      </label>
+      <label class="dropdown-option">
+        <input type="checkbox" name="dropdown-group" value="Selection 5"/>
+        Friday
+      </label>
     </div>
-    <script src="script.js"></script>
-  </body>
+  </div>
+
+  <div class="calendar">
+    <div class="days">
+      <div>Sun</div>
+      <div>Mon</div>
+      <div>Tue</div>
+      <div>Wed</div>
+      <div>Thur</div>
+      <div>Fri</div>
+      <div>Sat</div>
+    </div>
+
+    <div class="timeandgraph">
+      <div class="times">
+        <div>8 AM</div>
+        <div>9 AM</div>
+        <div>10 AM</div>
+        <div>11 AM</div>
+        <div>12 PM</div>
+        <div>1 PM</div>
+        <div>2 PM</div>
+        <div>3 PM</div>
+        <div>4 PM</div>
+        <div>5 PM</div>
+        <div>6 PM</div>
+        <div>7 PM</div>
+        <div>8 PM</div>
+      </div>
+      <div id="graph-container"></div>
+    </div>
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
 </html>
